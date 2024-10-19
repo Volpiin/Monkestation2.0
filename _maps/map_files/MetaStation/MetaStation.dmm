@@ -11769,11 +11769,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
-"elp" = (
-/obj/structure/lattice,
-/obj/effect/spawner/random/structure/grille,
-/turf/open/space/basic,
-/area/space)
 "elJ" = (
 /turf/closed/wall/r_wall,
 /area/station/science/server)
@@ -106291,7 +106286,7 @@ aaa
 aaa
 aaa
 aaa
-dPw
+aaa
 aaa
 aaa
 aaa
@@ -106548,7 +106543,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -106805,7 +106800,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -107062,7 +107057,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -107319,7 +107314,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -107576,7 +107571,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -107832,8 +107827,8 @@ aaa
 aaa
 aaa
 aaa
-dPw
-elp
+aaa
+aaa
 aaa
 aaa
 aaa
@@ -108090,7 +108085,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -108347,7 +108342,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -108604,7 +108599,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -108861,7 +108856,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -109118,7 +109113,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -109375,7 +109370,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -109632,7 +109627,7 @@ aaa
 aaa
 aaa
 aaa
-elp
+aaa
 aaa
 aaa
 aaa
@@ -109888,8 +109883,8 @@ aaa
 aaa
 aaa
 aaa
-elp
-dAJ
+aaa
+aaa
 aaa
 aaa
 aaa

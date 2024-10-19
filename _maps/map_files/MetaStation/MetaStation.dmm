@@ -41902,6 +41902,11 @@
 /obj/item/reagent_containers/cup/beaker/large,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
+"oxl" = (
+/obj/effect/artifact_spawner,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/engine,
+/area/station/science/explab)
 "oxs" = (
 /obj/machinery/light/directional/west,
 /obj/machinery/button/flasher{
@@ -55581,6 +55586,11 @@
 	dir = 1
 	},
 /area/station/engineering/atmos/pumproom)
+"thg" = (
+/obj/effect/artifact_spawner,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/engine,
+/area/station/science/explab)
 "thj" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	dir = 4;
@@ -111428,12 +111438,12 @@ aaa
 aaa
 aaa
 tVv
-fEv
+oxl
 wwT
 qVf
 nnK
 qVf
-fEv
+thg
 tVv
 aaa
 aaa

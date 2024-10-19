@@ -1739,7 +1739,14 @@
 /area/station/service/hydroponics)
 "aFH" = (
 /obj/structure/cable,
-/obj/machinery/firealarm/directional/west,
+/obj/machinery/firealarm/directional/west{
+	pixel_x = -23;
+	pixel_y = -6
+	},
+/obj/machinery/light_switch/directional/west{
+	pixel_x = -28;
+	pixel_y = 3
+	},
 /turf/open/floor/iron/white,
 /area/station/science/explab)
 "aGe" = (
@@ -2310,15 +2317,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/construction/storage_wing)
-"aNX" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/station/science/explab)
 "aNZ" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -14416,6 +14414,11 @@
 "fjD" = (
 /turf/closed/wall,
 /area/station/commons/toilet/auxiliary)
+"fjH" = (
+/obj/structure/closet/emcloset,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/white,
+/area/station/science/xenobiology/hallway)
 "fjV" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -15792,6 +15795,11 @@
 /obj/item/storage/fancy/candle_box,
 /turf/open/floor/iron/white,
 /area/station/medical/abandoned)
+"fLG" = (
+/obj/structure/closet/firecloset,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/white,
+/area/station/science/xenobiology/hallway)
 "fLI" = (
 /obj/structure/chair{
 	name = "Bailiff"
@@ -31463,15 +31471,11 @@
 /turf/open/floor/iron,
 /area/station/construction/storage_wing)
 "kWT" = (
-/obj/machinery/door/airlock/maintenance{
-	name = "Artifact Experimentation Maintenance"
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/effect/mapping_helpers/airlock/access/all/science/research,
-/obj/machinery/door/firedoor,
-/turf/open/floor/plating,
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/white,
 /area/station/science/explab)
 "kWV" = (
 /obj/machinery/door/poddoor/preopen{
@@ -36304,6 +36308,10 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
+"mDi" = (
+/obj/structure/sign/poster/random/directional/north,
+/turf/open/floor/iron/white,
+/area/station/science/explab)
 "mDu" = (
 /obj/structure/cable,
 /obj/effect/landmark/start/hangover,
@@ -37334,7 +37342,6 @@
 "mVl" = (
 /obj/structure/cable,
 /obj/item/kirbyplants/random,
-/obj/machinery/light_switch/directional/west,
 /turf/open/floor/iron/white,
 /area/station/science/explab)
 "mVp" = (
@@ -45204,7 +45211,7 @@
 	name = "Artifact Experimentation Science Lab"
 	},
 /turf/open/floor/iron/white,
-/area/station/science/xenobiology/hallway)
+/area/station/science/explab)
 "pIm" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
@@ -47153,6 +47160,17 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/testlab)
+"qpU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/maintenance{
+	name = "Artifact Experimentation Maintenance"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/research,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating,
+/area/station/science/explab)
 "qqg" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -50571,6 +50589,12 @@
 	},
 /turf/closed/wall/r_wall,
 /area/station/engineering/atmos/pumproom)
+"rzU" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white,
+/area/station/science/explab)
 "rAa" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Storage Room"
@@ -51417,6 +51441,9 @@
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 9
 	},
+/obj/effect/turf_decal/stripes{
+	dir = 8
+	},
 /turf/open/floor/engine,
 /area/station/science/explab)
 "rNs" = (
@@ -51982,6 +52009,10 @@
 /obj/machinery/door/firedoor/heavy,
 /turf/open/floor/plating,
 /area/station/science/ordnance/testlab)
+"rXl" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/white,
+/area/station/science/xenobiology/hallway)
 "rXB" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp,
@@ -61667,6 +61698,9 @@
 "vqI" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 5
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 4
 	},
 /turf/open/floor/iron/white,
 /area/station/science/explab)
@@ -108821,8 +108855,8 @@ cXh
 cXh
 cXh
 aAU
-bLd
-bLd
+tVv
+tVv
 tVv
 tVv
 tVv
@@ -109078,9 +109112,9 @@ qUG
 jzZ
 cbr
 cXh
-cXh
-cXh
-tVv
+qpU
+rzU
+pfw
 mUW
 gou
 fMM
@@ -109331,13 +109365,13 @@ wmL
 wmL
 wmL
 wmL
-wmL
+tVv
 tVv
 tVv
 tVv
 tVv
 kWT
-tVv
+pfw
 bVR
 wwT
 wwT
@@ -109588,12 +109622,12 @@ wmL
 shi
 sBt
 shi
-gUS
+tVv
 vkh
 mVl
 aFH
 jMl
-aNX
+rzU
 pfw
 eQt
 fcF
@@ -110096,14 +110130,14 @@ tOg
 tOg
 gUS
 umI
-tOg
-tOg
+rXl
+fLG
 wmL
 rHA
 nFS
 rHA
-gUS
-kyG
+tVv
+mDi
 sEf
 bEM
 bEM
@@ -110353,13 +110387,13 @@ aaa
 aaa
 tOg
 qnq
-tOg
-aaa
+fjH
 wmL
 wmL
 wmL
 wmL
 wmL
+tVv
 oBc
 rkk
 sAJ

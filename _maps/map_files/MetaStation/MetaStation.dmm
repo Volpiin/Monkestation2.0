@@ -4171,6 +4171,7 @@
 /obj/effect/turf_decal/stripes{
 	dir = 10
 	},
+/obj/machinery/light/directional/south,
 /turf/open/floor/engine,
 /area/station/science/explab)
 "bsZ" = (

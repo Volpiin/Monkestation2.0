@@ -322,3 +322,26 @@
   - bugfix: wikibooks now point to the new page homes on the wiki.
   Shoddd:
   - bugfix: fixes lavaland max temperature
+2024-10-20:
+  Absolucy:
+  - bugfix: Large amounts of smoke should no longer live for many times its intended
+      lifetime.
+  - bugfix: Fixed tamed goliaths not properly following commands - they'll now actually
+      follow you if you command "follow".
+  Addust:
+  - rscadd: The ERP achievement has been updated to reflect current rules naming schemes
+      in-game. This DOES NOT affect back-end code because I'm too lazy to change that.
+  Gw0sty:
+  - bugfix: Fixed incorrect door access on Theseus's BlueShield's Office.
+  RafRoq:
+  - qol: You can now search for reagents in the seed extractor
+2024-10-21:
+  Absolucy:
+  - bugfix: Spades and such no longer damage Craig (or planter trays) if you or them
+      move.
+  - bugfix: Name tags now take the mob's base offset into account.
+  - bugfix: Signboards no longer have a delay or update inconsistently when their
+      text is changed.
+  dwasint:
+  - balance: TWitch now requires you have a heart to function
+  - balance: Toxic Compensation now requires that you are not immune to toxin damage

@@ -23918,10 +23918,9 @@
 /turf/open/floor/iron,
 /area/station/engineering/atmos/storage/gas)
 "ixd" = (
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "ixm" = (
@@ -24009,9 +24008,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "ixX" = (
@@ -43699,9 +43698,7 @@
 /turf/open/floor/iron,
 /area/station/command/gateway)
 "pfw" = (
-/obj/structure/window/reinforced/plasma/spawner/directional/west{
-	dir = 2
-	},
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
 /turf/open/floor/iron/white,
 /area/station/science/explab)
 "pfE" = (
@@ -45823,8 +45820,8 @@
 /area/station/security/checkpoint/customs)
 "pTu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "pTw" = (
@@ -57817,7 +57814,7 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
-/turf/closed/wall/r_wall,
+/turf/open/floor/plating,
 /area/station/maintenance/aft/lesser)
 "tXX" = (
 /obj/machinery/vending/dinnerware,
@@ -108350,7 +108347,7 @@ aaa
 aaa
 aaa
 bLd
-cXh
+ixd
 bLd
 oWk
 edu
